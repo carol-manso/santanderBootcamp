@@ -1,0 +1,10 @@
+Connection1/ConnectionJDBC.java
+ Connection1.ConnectionJDBC
+ProjetoJavaJDBCJPA/ConnectionJDBC.java
+ ProjetoJavaJDBCJPA.ConnectionJDBC
+ProjetoJavaJDBCJPA/Aluno.java
+ ProjetoJavaJDBCJPA.Aluno
+ProjetoJavaJDBCJPA/AlunoDAO.java
+ ProjetoJavaJDBCJPA.AlunoDAO
+ProjetoJavaJDBCJPA/QueryExecutions.java
+ ProjetoJavaJDBCJPA.QueryExecutions
