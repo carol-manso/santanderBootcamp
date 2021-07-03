@@ -1,10 +1,18 @@
+ProjetoJavaJDBCJPA/Aluno.java
+ ProjetoJavaJDBCJPA.Aluno
+ProjetoJavaJDBCJPA/QueryExecutions.java
+ ProjetoJavaJDBCJPA.QueryExecutions
+ProjetoJavaJDBCJPA/AlunoDAO.java
+ ProjetoJavaJDBCJPA.AlunoDAO
+ExercicioFinalJDBC/Connections.java
+ ExercicioFinalJDBC.Connections
 Connection1/ConnectionJDBC.java
  Connection1.ConnectionJDBC
 ProjetoJavaJDBCJPA/ConnectionJDBC.java
  ProjetoJavaJDBCJPA.ConnectionJDBC
-ProjetoJavaJDBCJPA/Aluno.java
- ProjetoJavaJDBCJPA.Aluno
-ProjetoJavaJDBCJPA/AlunoDAO.java
- ProjetoJavaJDBCJPA.AlunoDAO
-ProjetoJavaJDBCJPA/QueryExecutions.java
- ProjetoJavaJDBCJPA.QueryExecutions
+ExercicioFinalJDBC/Curso.java
+ ExercicioFinalJDBC.Curso
+ExercicioFinalJDBC/CursoDAO.java
+ ExercicioFinalJDBC.CursoDAO
+ExercicioFinalJDBC/QueryExecutions.java
+ ExercicioFinalJDBC.QueryExecutions
