@@ -44,8 +44,8 @@
 
                 <!-- Configuracoes do banco de dados -->
                 <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/aulajdbcjpa" />
-                <property name="javax.persistence.jdbc.user" value="cintia" />
-                <property name="javax.persistence.jdbc.password" value="123" />
+                <property name="javax.persistence.jdbc.user" value="" /> <!--Coloque aqui seu usuário e senha-->
+                <property name="javax.persistence.jdbc.password" value="" />
                 <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
 
             <!-- Configuracoes do Hibernate (os parametros so sao reconhecidos se estiver usando a implementacao do Hibernate)-->
