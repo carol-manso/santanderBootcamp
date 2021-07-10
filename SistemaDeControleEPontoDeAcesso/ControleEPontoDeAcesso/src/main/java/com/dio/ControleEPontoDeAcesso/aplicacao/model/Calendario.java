@@ -4,6 +4,7 @@ import lombok.*;
 import org.hibernate.envers.Audited;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import java.time.LocalDateTime;
@@ -18,6 +19,7 @@ import java.time.LocalDateTime;
 @Audited
 public class Calendario {
     @Id
+    @GeneratedValue
     private long id;
     @ManyToOne
     private TipoData tipo;
