@@ -3,10 +3,7 @@ package com.dio.ControleEPontoDeAcesso.aplicacao.model;
 import lombok.*;
 import org.hibernate.envers.Audited;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Getter
 @Setter
@@ -18,7 +15,7 @@ import javax.persistence.Id;
 @Audited
 public class TipoData {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue
     private long id;
     private String descricao;
 }

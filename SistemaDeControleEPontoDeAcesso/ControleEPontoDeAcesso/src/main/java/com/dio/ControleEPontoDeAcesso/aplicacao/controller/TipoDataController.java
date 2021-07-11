@@ -21,7 +21,7 @@ public class TipoDataController {
 
         return tipoDataService.save(tipoData);
     }
-    //mando para a requisição um objeto do tipo jornada
+
 
     @GetMapping
     public List<TipoData> getTipoDataList(){
@@ -32,7 +32,7 @@ public class TipoDataController {
     public TipoData getTipoDataById(@PathVariable("idTipoData") Long idTipoData) throws Exception {
         return tipoDataService.getById(idTipoData).orElseThrow(() -> new Exception("tipo de data não encontrada"));
     }
-    @PutMapping //requisição PUT para /tipo_data
+    @PutMapping
     public TipoData updateTipoData(@RequestBody TipoData tipoData){
 
         return tipoDataService.update(tipoData);

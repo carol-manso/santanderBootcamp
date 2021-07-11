@@ -3,6 +3,7 @@ package com.dio.ControleEPontoDeAcesso.aplicacao.model;
 import lombok.*;
 import org.hibernate.envers.Audited;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
@@ -14,6 +15,7 @@ import javax.persistence.ManyToOne;
 @EqualsAndHashCode
 @Builder
 @Audited
+@Entity
 public class Localidade {
     @Id
     @GeneratedValue

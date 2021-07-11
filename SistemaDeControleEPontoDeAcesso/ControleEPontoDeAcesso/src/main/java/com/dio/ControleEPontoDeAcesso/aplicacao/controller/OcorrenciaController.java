@@ -21,7 +21,7 @@ public class OcorrenciaController {
 
         return OcorrenciaService.save(ocorrencia);
     }
-    //mando para a requisição um objeto do tipo jornada
+
 
     @GetMapping
     public List<Ocorrencia> getOcorrenciaList(){
@@ -32,7 +32,7 @@ public class OcorrenciaController {
     public Ocorrencia getOcorrenciaById(@PathVariable("idOcorrencia") Long idOcorrencia) throws Exception {
         return OcorrenciaService.getById(idOcorrencia).orElseThrow(() -> new Exception("tipo de data não encontrada"));
     }
-    @PutMapping //requisição PUT para /tipo_data
+    @PutMapping
     public Ocorrencia updateOcorrencia(@RequestBody Ocorrencia ocorrencia){
 
         return OcorrenciaService.update(ocorrencia);
